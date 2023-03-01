@@ -4,8 +4,8 @@ const express = require("express")
 const app = express()
 
 const dotenv = require("dotenv")
-const config = require("./config.json")
-const constants = require("./constant.js")
+const config = require("../config.json")
+const constants = require("../constant.js")
 const EventNotificationSDK = require("event-notification-nodejs-sdk")
 
 const environment = "PRODUCTION"
